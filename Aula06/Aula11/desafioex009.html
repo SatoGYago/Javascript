@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Indicador de nacionalidade</h1>
+    Você nasceu em <input type="text" name="país" id="pais">
+    <input type="button" value="confirmar" onclick="checar()">
+    <script>
+        function checar(){
+        var pais = (document.querySelector('input#pais'))
+        if (pais.toUpperCase() != 'BRASIL'){
+            document.write('Você é <strong>ESTRANGEIRO</strong>')
+        }else{
+            document.write('Você é <strong>BRASILEIRO</strong>')
+        }
+        }
+    </script>
+</body>
+</html>

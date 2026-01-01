@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        window.alert('Hello, World!')
+        var nome = window.prompt('Qual seu nome?')
+        var idade = Number(window.prompt('Qual sua idade?'))
+        var ano = (2025 - idade)
+        document.write(`<h1>Ola, ${nome} você nasceu em ${ano} e tem ${idade} anos!</h1>`)
+        document.writeln(`<h2>Seu nome tem ${nome.length} letras</h2>`)
+        document.writeln(`<h2>Seu nome em maiusculas é ${nome.toUpperCase} e em minusculas é ${nome.toLowerCase}</h2>`)
+        n1 = Number.parseFloat(window.prompt('Quantos reais você tem hoje?'))
+        document.writeln(`<h3>Você tem ${n1.toLocaleString('PT-BR', {style:'currency', currency:'BRL'})
+        })} reais</h3>`)
+
+
+    </script>
+</body>
+</html>
