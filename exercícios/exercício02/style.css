@@ -1,0 +1,23 @@
+section{
+    width: 700px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    text-align: justify;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+}
+body{
+    background-color: rgb(48, 73, 121);
+    color: white;
+    font-family: arial;
+    text-align: center;
+}
+div#op{
+    margin: 10px;
+    padding: 5px;
+}
+div#res{
+    margin: auto;
+    text-align: center;
+}
