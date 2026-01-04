@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(46, 108, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#Titulo{
+    color: white;
+    text-align: center;
+    margin-top: 15vh;
+}
+div{
+    background-color: white;
+}
+#dados{
+    margin: auto;
+    margin-top: 5em;
+    padding: 10px;
+    border-radius: 15px;
+    max-width: 500px;
+}
+div#res{
+    min-height: 10vh;
+    padding: 30px;
+}
