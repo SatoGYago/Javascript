@@ -14,10 +14,14 @@ let passo = document.getElementById('txtpasso')
         if(p == 0){
             window.alert('Numero de passos invalido!')
         }else{
+        if(f > i){
         for (let c = i; c <= f; c += p) {
             res.innerHTML += ` 👉 ${c}`
-
-
+        }
+        }else{
+            for(let c = i; c >= f; c -= p){
+                res.innerHTML += ` 👉 ${c}`
+            }
         }
     }
 
