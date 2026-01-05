@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex003</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="titulo"><h1>Analisador de Numeros</h1></header>
+    <section id="sec">
+        <div>
+            <p>
+                Numero :
+                <input type="text" name="numero" id="txtnum">
+                <input type="button" value="adicionar" onclick= "Adicionar()">
+            </p>
+        </div>
+        <div>
+            <select name="numeros digitados" id="txtres" size="5">
+                <ul>
+
+                </ul>
+            </select>
+            
+        </div>
+        <input type="button" value="finalizar" onclick="Analise()">
+        <div id="res">
+            <p id="res1" class="resp"></p>
+            <p id="res2" class="resp"></p>
+            <p id="res3" class="resp"></p>
+            <p id="res4" class="resp"></p>
+            <p id="res5" class="resp"></p>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="Analisador.js"></script>
+
+</body>
+</html>
